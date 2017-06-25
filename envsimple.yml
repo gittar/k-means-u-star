@@ -1,0 +1,15 @@
+name: kmus
+channels: !!python/tuple
+- !!python/unicode
+  'defaults'
+dependencies:
+- jupyter
+- python=3.6
+- notebook
+- bottleneck
+- matplotlib
+- scikit-learn
+- pandas
+- pip
+- colorcet
+
