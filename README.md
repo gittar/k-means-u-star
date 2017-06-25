@@ -2,7 +2,7 @@
 
 
 
-![GitHub Logo](img/closeup0.png)
+![GitHub Logo](img/example.png)
 
 
 
