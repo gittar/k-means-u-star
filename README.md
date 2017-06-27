@@ -12,7 +12,7 @@ This repository contains example python code for the k-means-u and k-mean-u* alg
 * clone or download https://github.com/gittar/k-means-u-star
 * cd main directory
 * install miniconda or anaconda: https://conda.io/docs/install/quick.html
-* create kmus environment: `conda env create -file envsimple.yml`
+* create kmus environment: `conda env create -f envsimple.yml`
 * activate environment: `source activate kmus` (on windows: `activate kmus`)
 * start one of the jupyter notebooks: `jupyter notebook algo-pure.ipynb`
 * continue in the browser window which opens (jupyter manual: http://jupyter-notebook.readthedocs.io/en/latest/)
