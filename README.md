@@ -1,12 +1,8 @@
-# k-means-u and k-means-u*
-
-
+# The k-means-u* clustering algorithm
 
 ![GitHub Logo](img/example.png)
 
-
-
-This repository contains example python code for the k-means-u and k-mean-u* algorithms as proposed in (enter arxiv link here). <br>Since the paper file size (14 MB) is still too large for arxiv (6MB max), it is currently included in the repository (kmeansustar.pdf)
+This repository contains example python code for the k-means-u and k-mean-u* algorithms as proposed in https://arxiv.org/abs/1706.09059. 
 
 ## Quick Start
 * clone or download https://github.com/gittar/k-means-u-star
