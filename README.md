@@ -1,6 +1,6 @@
 # The k-means-u* clustering algorithm
 
-![GitHub Logo](notbooks/img/example.png)
+![GitHub Logo](notebooks/img/example.png)
 
 This repository contains example python code for the k-means-u and k-mean-u* algorithms as proposed in https://arxiv.org/abs/1706.09059. 
 
