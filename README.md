@@ -1,12 +1,12 @@
 # The k-means-u* clustering algorithm
 
-![GitHub Logo](img/example.png)
+![GitHub Logo](notbooks/img/example.png)
 
 This repository contains example python code for the k-means-u and k-mean-u* algorithms as proposed in https://arxiv.org/abs/1706.09059. 
 
 ## Quick Start
-* clone or download https://github.com/gittar/k-means-u-star
-* cd main directory
+* clone repository: `git clone https://github.com/gittar/k-means-u-star`
+* cd main directory: `cd k-means-u-star`
 * install miniconda or anaconda: https://conda.io/docs/install/quick.html
 * create kmus environment: `conda env create -f envsimple.yml`
 * activate environment: `source activate kmus` (on windows: `activate kmus`)
@@ -14,7 +14,6 @@ This repository contains example python code for the k-means-u and k-mean-u* alg
 * continue in the browser window which opens (jupyter manual: http://jupyter-notebook.readthedocs.io/en/latest/)
 
 ## jupyter notebooks:
-
 * algo-pure.ipynb <br>
   (a bare-bones implementation meant for easy understanding of the algorithms)
 * simu-detail.ipynb <br>
