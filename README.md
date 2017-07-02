@@ -1,5 +1,5 @@
-# The k-means-u* clustering algorithm
-
+# The k-means-u* algorithm
+## non-local jumps and greedy retries improve k-means++ clustering
 ![GitHub Logo](notebooks/img/example.png)
 
 This repository contains example python code for the k-means-u and k-mean-u* algorithms as proposed in https://arxiv.org/abs/1706.09059. 
