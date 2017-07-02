@@ -14,13 +14,13 @@ This repository contains example python code for the k-means-u and k-mean-u* alg
 * continue in the browser window which opens (jupyter manual: http://jupyter-notebook.readthedocs.io/en/latest/)
 
 ## jupyter notebooks:
-* algo-pure.ipynb <br>
+* [algo-pure.ipynb](https://github.com/gittar/k-means-u-star/blob/master/notebooks/algo-pure.ipynb)<br>
   a bare-bones implementation meant for easy understanding of the algorithms
-* simu-detail.ipynb <br>
+* [simu-detail.ipynb](https://github.com/gittar/k-means-u-star/blob/master/notebooks/simu-detail.ipynb) <br>
   detailed simulations and graphics to illustrate the way the algorithms work, uses kmeansu.py
-* simu-bulk.ipynb <br>
+* [simu-bulk.ipynb](https://github.com/gittar/k-means-u-star/blob/master/notebooks/simu-bulk.ipynb) <br>
   systematic simulations with various data sets to compare k-means-++, k-means-u and k-means-u*, uses kmeansu.py
-* dataset_class.ipynb<br>
+* [dataset_class.ipynb](https://github.com/gittar/k-means-u-star/blob/master/notebooks/dataset_class.ipynb)<br>
   examples for using the data generator
   
 ## python files:
