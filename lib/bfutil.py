@@ -1,3 +1,4 @@
+import os
 import matplotlib.patches as patches
 from scipy.spatial import Voronoi, voronoi_plot_2d
 import numpy as np
@@ -78,19 +79,20 @@ def whoami():
     return inspect.stack()[1][3]
 
 # finishes a plot, possibly writes it to file
-def finish(fig,name, top=0.95, write=False, tight=True,**kwargs):
+def finish(fig,name, top=0.95, write=False, tight=True, dpi=100, imgdir='img', **kwargs):
         if tight:
             fig.tight_layout()
             plt.subplots_adjust(top=top)     # Add space at top
 
         if len(name)>4 and name[:4]=="fig_":
             name = name[4:]
-        fname = "img/"+name+".png"
+        fname = os.path.join(imgdir,name+".png")
         if write:
-            fig.savefig(fname,bbox_inches='tight', dpi=300, **kwargs)
+            fig.savefig(fname,bbox_inches='tight', dpi=dpi, **kwargs)
             print("wrote:", fname)
         else:
             pass
+        return(fig)
 
 # prepares a multiplot
 def makeplot(lines,cols,figsize=(20,6),title=None):
